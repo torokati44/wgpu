@@ -41,9 +41,7 @@ path = "./wgpu-hal"
 version = "0.16"
 
 [workspace.dependencies.naga]
-git = "https://github.com/gfx-rs/naga"
-rev = "b99d58ea435090e561377949f428bce2c18451bb"
-version = "0.12.0"
+version = "=0.12.3"
 
 [workspace.dependencies]
 arrayvec = "0.7"
