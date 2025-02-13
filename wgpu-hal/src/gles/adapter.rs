@@ -824,6 +824,7 @@ impl super::Adapter {
                     private_caps,
                     workarounds,
                     features,
+                    limits: limits.clone(),
                     shading_language_version,
                     next_shader_id: Default::default(),
                     program_cache: Default::default(),

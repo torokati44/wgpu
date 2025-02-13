@@ -271,6 +271,7 @@ struct AdapterShared {
     context: AdapterContext,
     private_caps: PrivateCapabilities,
     features: wgt::Features,
+    limits: wgt::Limits,
     workarounds: Workarounds,
     shading_language_version: naga::back::glsl::Version,
     next_shader_id: AtomicU32,

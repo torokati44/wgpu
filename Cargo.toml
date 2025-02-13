@@ -140,6 +140,7 @@ wgpu = { version = "24.0.1", path = "./wgpu", default-features = false, features
     "dx12",
     "metal",
     "static-dxc",
+    "webgl",
 ] }
 wgpu-core = { version = "24.0.0", path = "./wgpu-core" }
 wgpu-macros = { version = "24.0.1", path = "./wgpu-macros" }
